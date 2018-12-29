@@ -4,7 +4,7 @@
   "description": "Node.js/Express REST API service",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node server.js",
     "test": "mocha --timeout 10000"
   },
   "repository": {

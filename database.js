@@ -1,7 +1,9 @@
-const DBSOURCE = 'data/db.sqlite'; // ':memory:' for in-memory database
-
+var config = require("./config.js")
 var sqlite3 = require('sqlite3').verbose();
 var md5 = require('md5');
+
+
+const DBSOURCE = config.SQLITE_DATABASE; 
 
 
 function migrate(db){

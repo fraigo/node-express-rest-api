@@ -1,12 +1,8 @@
 let chai = require('chai');
 let chaiHttp = require('chai-http');
 let should = chai.should();
-var server = require("../index.js")
+var server = require("../server.js")
 var db = require("../database.js")
-
-var host = "localhost"
-var port = 8000
-
 
 chai.use(chaiHttp);
 
