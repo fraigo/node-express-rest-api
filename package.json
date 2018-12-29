@@ -1,0 +1,36 @@
+{
+  "name": "express-rest-api",
+  "version": "1.0.0",
+  "description": "Node.js/Express REST API service",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha --timeout 10000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fraigo/node-express-rest-api.git"
+  },
+  "keywords": [
+    "Node",
+    "Express",
+    "REST",
+    "API",
+    "Mocha",
+    "Chai"
+  ],
+  "author": "Francisco Igor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fraigo/node-express-rest-api/issues"
+  },
+  "homepage": "https://github.com/fraigo/node-express-rest-api#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.0",
+    "express": "^4.16.4",
+    "md5": "^2.2.1",
+    "mocha": "^5.2.0",
+    "sqlite3": "^4.0.4"
+  }
+}
